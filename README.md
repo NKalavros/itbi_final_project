@@ -26,7 +26,7 @@ bwa index mm.fa &> index_creation.log &
 echo "export genome=$(pwd)" >> ~/.bashrc
 ```
 
-## Performing some miscellanous quality control
+## Performing some miscellaneous quality control
 
 After this step is complete, the scripts navigates one level up and creates a folder named *reads_noqc*. The .fastq files are downloaded there (assigned in the project description). A _FastQC_[2] report is generated pert, as well as a report for all 3 replicates. Afterwards, the resulting .html files can be displayed using a Jupyter Notebook (Done to circumvent the lack of an interface by creating a port to the Notebook). This is achieved with the following block of code. The .html files of the reports themselves will be also uploaded in the repository itself.
 
