@@ -6,9 +6,11 @@ This repository holds the code, as well as documentation about the final project
 
 *This code was tested on a vanilla _Ubuntu 18.04 LTS_ system running on a Google Cloud VM with 24 cores and 64 gigabytes of RAM. At many points, this comes into play during some commands that can be executed using multithreading. It should also be noted that these commands assume that the user has `sudo` access. The `.sh` file itself contains line by line comment, in order to be as clear as possible.*
 
-The scripts are split into two general folders. A folder named scripts that contains the code to implement the pipeline and a folder called installables that contains .sh files to install all needed programs in a vanilla system. It also appends the PATH variable accordingly, so that every program is accessible from anywhere just by running:
+The scripts are split into two general folders. A folder named driver_code that contains the code to implement the pipeline and a folder called installables that contains .sh files to install all needed programs in a vanilla system. It also appends the PATH variable accordingly, so that every program is accessible from anywhere just by running:
 
 `source ~/.bashrc`
+
+For all programs ran, if they are not already installed in your system, you can use the appropriate `.sh` file to install them. Finally, every command was ran beginning from the home `~` directory.
 
 Finally, some of the diagnostic plots that were generated are uploaded in this repository, such as the QC reports, the results from running MACS2, MEME and other programs, as well as all logfiles generated.
 
