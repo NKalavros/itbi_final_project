@@ -1,0 +1,20 @@
+java -ea -Xmx11873m -Xms11873m -cp /home/zamanosandreas/bbmap/current/ hiseq.AnalyzeFlowCell in=rep1.fq out=rep1_filter_trimmomatic.fastq indump=dump.flowcell
+Executing hiseq.AnalyzeFlowCell [in=rep1.fq, out=rep1_filter_trimmomatic.fastq, indump=dump.flowcell]
+
+
+Flagged 3790 of 75240 micro-tiles, containing 4157581 reads:
+2128 exceeded uniqueness thresholds.
+3199 exceeded quality thresholds.
+1256 exceeded error-free probability thresholds.
+0 contained G spikes.
+0 had too few reads to calculate statistics.
+
+Filtering reads:	13.622 seconds.
+
+Time:                         	13.797 seconds.
+Reads Processed:      31919k 	2313.59k reads/sec
+Bases Processed:       1149m 	83.29m bases/sec
+
+Reads Discarded:       2159k 	6.764%
+Bases Discarded:      77727k 	6.764%
+

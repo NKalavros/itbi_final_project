@@ -1,0 +1,20 @@
+java -ea -Xmx11853m -Xms11853m -cp /home/zamanosandreas/bbmap/current/ hiseq.AnalyzeFlowCell in=all_reformat.fq dump=dump.flowcell
+Executing hiseq.AnalyzeFlowCell [in=all_reformat.fq, dump=dump.flowcell]
+
+Loading kmers:  	40.508 seconds.
+Filling tiles:  	157.828 seconds.
+Widening to 500x1000
+Widening to 1000x1000
+Widening to 1000x2000
+
+Flagged 3829 of 75240 micro-tiles, containing 4195964 reads:
+2173 exceeded uniqueness thresholds.
+3199 exceeded quality thresholds.
+1256 exceeded error-free probability thresholds.
+0 contained G spikes.
+0 had too few reads to calculate statistics.
+
+
+Time:                         	199.053 seconds.
+Reads Processed:      99012k 	497.42k reads/sec
+Bases Processed:       3564m 	17.91m bases/sec

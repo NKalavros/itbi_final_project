@@ -1,0 +1,7 @@
+Sample	Trimmomatic_mqc-generalstats-trimmomatic-dropped_pct	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+rep1	4.56					
+rep1_trimmomatic		17.227833222171157	44.0	36.0	9.090909090909092	32087238.0
+rep2	2.9					
+rep2_trimmomatic		14.417332732460281	43.0	36.0	9.090909090909092	35004993.0
+rep3	3.92					
+rep3_trimmomatic		32.82484133656982	42.0	36.0	9.090909090909092	31919848.0

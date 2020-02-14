@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	rep3_filter_trimmomatic	/home/zamanosandreas/itbi_project/reads_filter_trimmomatic/rep3_filter_trimmomatic_fastqc.zip
+FastQC	all_sections	rep1_filter_trimmomatic	/home/zamanosandreas/itbi_project/reads_filter_trimmomatic/rep1_filter_trimmomatic_fastqc.zip
+FastQC	all_sections	rep2_filter_trimmomatic	/home/zamanosandreas/itbi_project/reads_filter_trimmomatic/rep2_filter_trimmomatic_fastqc.zip

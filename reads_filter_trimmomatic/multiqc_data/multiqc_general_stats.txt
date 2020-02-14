@@ -1,0 +1,4 @@
+Sample	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+rep1_filter_trimmomatic	32.83966219502392	42.0	36.0	9.090909090909092	29760762.0
+rep2_filter_trimmomatic	14.420642270862942	43.0	36.0	9.090909090909092	34751176.0
+rep3_filter_trimmomatic	17.248487604077013	44.0	36.0	9.090909090909092	31486393.0

@@ -1,0 +1,7 @@
+TrimmomaticSE: Started with arguments:
+ -threads 8 -phred33 /home/zamanosandreas/itbi_project/reads_noqc/rep1.fastq rep1_trimmomatic.fastq ILLUMINACLIP:/home/zamanosandreas/Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 33620046 Surviving: 32087238 (95.44%) Dropped: 1532808 (4.56%)
+TrimmomaticSE: Completed successfully

@@ -1,0 +1,82 @@
+INFO  @ Thu, 13 Feb 2020 22:21:42: 
+# Command line: callpeak -t /home/zamanosandreas/itbi_project/aligned_reads/rep_1.bam -n rep_2 -g 2.7e9 --broad -q 0.05
+# ARGUMENTS LIST:
+# name = rep_2
+# format = AUTO
+# ChIP-seq file = ['/home/zamanosandreas/itbi_project/aligned_reads/rep_1.bam']
+# control file = None
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is on
+# Paired-End mode is off
+ 
+INFO  @ Thu, 13 Feb 2020 22:21:42: #1 read tag files... 
+INFO  @ Thu, 13 Feb 2020 22:21:42: #1 read treatment tags... 
+INFO  @ Thu, 13 Feb 2020 22:21:42: Detected format is: BAM 
+INFO  @ Thu, 13 Feb 2020 22:21:42: * Input file is gzipped. 
+INFO  @ Thu, 13 Feb 2020 22:21:45:  1000000 
+INFO  @ Thu, 13 Feb 2020 22:21:47:  2000000 
+INFO  @ Thu, 13 Feb 2020 22:21:49:  3000000 
+INFO  @ Thu, 13 Feb 2020 22:21:51:  4000000 
+INFO  @ Thu, 13 Feb 2020 22:21:53:  5000000 
+INFO  @ Thu, 13 Feb 2020 22:21:56:  6000000 
+INFO  @ Thu, 13 Feb 2020 22:21:58:  7000000 
+INFO  @ Thu, 13 Feb 2020 22:22:00:  8000000 
+INFO  @ Thu, 13 Feb 2020 22:22:02:  9000000 
+INFO  @ Thu, 13 Feb 2020 22:22:05:  10000000 
+INFO  @ Thu, 13 Feb 2020 22:22:07:  11000000 
+INFO  @ Thu, 13 Feb 2020 22:22:09:  12000000 
+INFO  @ Thu, 13 Feb 2020 22:22:11:  13000000 
+INFO  @ Thu, 13 Feb 2020 22:22:13:  14000000 
+INFO  @ Thu, 13 Feb 2020 22:22:15:  15000000 
+INFO  @ Thu, 13 Feb 2020 22:22:17:  16000000 
+INFO  @ Thu, 13 Feb 2020 22:22:20:  17000000 
+INFO  @ Thu, 13 Feb 2020 22:22:22:  18000000 
+INFO  @ Thu, 13 Feb 2020 22:22:24:  19000000 
+INFO  @ Thu, 13 Feb 2020 22:22:26:  20000000 
+INFO  @ Thu, 13 Feb 2020 22:22:28:  21000000 
+INFO  @ Thu, 13 Feb 2020 22:22:30:  22000000 
+INFO  @ Thu, 13 Feb 2020 22:22:32:  23000000 
+INFO  @ Thu, 13 Feb 2020 22:22:35:  24000000 
+INFO  @ Thu, 13 Feb 2020 22:22:37:  25000000 
+INFO  @ Thu, 13 Feb 2020 22:22:39:  26000000 
+INFO  @ Thu, 13 Feb 2020 22:22:41:  27000000 
+INFO  @ Thu, 13 Feb 2020 22:22:43:  28000000 
+INFO  @ Thu, 13 Feb 2020 22:22:45:  29000000 
+INFO  @ Thu, 13 Feb 2020 22:22:47: 29983690 reads have been read. 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #1 tag size is determined as 36 bps 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #1 tag size = 36.0 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #1  total tags in treatment: 29983690 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #1 user defined the maximum tags... 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #1  tags after filtering in treatment: 26281427 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #1  Redundant rate of treatment: 0.12 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #1 finished! 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #2 Build Peak Model... 
+INFO  @ Thu, 13 Feb 2020 22:22:50: #2 looking for paired plus/minus strand peaks... 
+INFO  @ Thu, 13 Feb 2020 22:22:53: #2 number of paired peaks: 2116 
+INFO  @ Thu, 13 Feb 2020 22:22:53: start model_add_line... 
+INFO  @ Thu, 13 Feb 2020 22:22:54: start X-correlation... 
+INFO  @ Thu, 13 Feb 2020 22:22:54: end of X-cor 
+INFO  @ Thu, 13 Feb 2020 22:22:54: #2 finished! 
+INFO  @ Thu, 13 Feb 2020 22:22:54: #2 predicted fragment length is 37 bps 
+INFO  @ Thu, 13 Feb 2020 22:22:54: #2 alternative fragment length(s) may be 37,417,496 bps 
+INFO  @ Thu, 13 Feb 2020 22:22:54: #2.2 Generate R script for model : rep_2_model.r 
+WARNING @ Thu, 13 Feb 2020 22:22:54: #2 Since the d (37) calculated from paired-peaks are smaller than 2*tag length, it may be influenced by unknown sequencing problem! 
+WARNING @ Thu, 13 Feb 2020 22:22:54: #2 You may need to consider one of the other alternative d(s): 37,417,496 
+WARNING @ Thu, 13 Feb 2020 22:22:54: #2 You can restart the process with --nomodel --extsize XXX with your choice or an arbitrary number. Nontheless, MACS will continute computing. 
+INFO  @ Thu, 13 Feb 2020 22:22:54: #3 Call peaks... 
+INFO  @ Thu, 13 Feb 2020 22:22:54: #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ Thu, 13 Feb 2020 22:22:54: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 13 Feb 2020 22:24:06: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 13 Feb 2020 22:24:43: #4 Write output xls file... rep_2_peaks.xls 
+INFO  @ Thu, 13 Feb 2020 22:24:43: #4 Write broad peak in broadPeak format file... rep_2_peaks.broadPeak 
+INFO  @ Thu, 13 Feb 2020 22:24:43: #4 Write broad peak in bed12/gappedPeak format file... rep_2_peaks.gappedPeak 
+INFO  @ Thu, 13 Feb 2020 22:24:43: Done! 

@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	rep1	/home/zamanosandreas/itbi_project/reads_noqc/rep1_fastqc.zip
+FastQC	all_sections	rep3	/home/zamanosandreas/itbi_project/reads_noqc/rep3_fastqc.zip
+FastQC	all_sections	rep2	/home/zamanosandreas/itbi_project/reads_noqc/rep2_fastqc.zip
