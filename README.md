@@ -135,6 +135,8 @@ filepooled=$(find $(pwd) -name "*pooled_peaks.broadPeak")
 
 Subsequently, the top 3 peaks for each sample were selected (based on -log10(q-value)) and visualized with IGV[8], along with the files. For that reasons, the .BAM files had to be sorted and indexed using SAMtools. The files are once again placed in a new folder named *igv_visualization*. An image follows that shows the peak identified in chromosome X in all 3 replicates, as seen in IGV.
 
+![IGV visualization](https://raw.githubusercontent.com/NKalavros/itbi_final_project/master/igv_visualization/top_peaks.png)
+
 ```cd .. && mkdir igv_visualization && cd igv_visualization
 counter=1
 for i in $readfiles
